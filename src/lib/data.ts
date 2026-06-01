@@ -34,7 +34,7 @@ export const APPS: App[] = [
     gradient: 'from-violet-500 to-purple-600',
     ctaLabel: 'Try Live Demo',
     ctaHref: '#',
-    secondaryCta: { label: 'View Code', href: 'https://github.com/markmuya' },
+    secondaryCta: { label: 'View Code', href: 'https://github.com/markanthonymuya/' },
     features: [
       'Expense categories & filters',
       'Monthly trend analytics',
@@ -54,7 +54,7 @@ export const APPS: App[] = [
     emoji: '🚀',
     gradient: 'from-orange-500 to-pink-500',
     ctaLabel: 'Follow on GitHub',
-    ctaHref: 'https://github.com/markmuya',
+    ctaHref: 'https://github.com/markanthonymuya/',
     features: [
       'AI-powered tools',
       'Mobile apps',

@@ -101,7 +101,7 @@ export function Hero() {
         <div className="flex items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.5s' }}>
           {[
             { icon: Mail,     href: 'mailto:markmuya@outlook.com', label: 'Email'    },
-            { icon: Github,   href: 'https://github.com/markmuya', label: 'GitHub'   },
+            { icon: Github,   href: 'https://github.com/markanthonymuya/', label: 'GitHub'   },
             { icon: Linkedin, href: 'https://linkedin.com/in/markmuya', label: 'LinkedIn' },
           ].map(({ icon: Icon, href, label }) => (
             <a
