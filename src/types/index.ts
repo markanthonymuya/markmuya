@@ -12,6 +12,7 @@ export interface App {
   ctaHref: string;
   secondaryCta?: { label: string; href: string };
   features: string[];
+  visitPrompt?: { title: string; description: string; url: string; urlLabel: string };
 }
 
 export interface ChatMessage {
