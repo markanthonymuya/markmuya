@@ -59,16 +59,6 @@ export function Navbar() {
           ))}
           <li>
             <a
-              href="https://countmein.markmuya.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="ml-1 px-4 py-2 text-sm font-semibold text-brand-light border border-brand/30 hover:border-brand hover:bg-brand/10 rounded-xl transition-all"
-            >
-              🎟️ CountMeIn
-            </a>
-          </li>
-          <li>
-            <a
               href="mailto:markmuya@outlook.com"
               className="ml-2 px-4 py-2 text-sm font-semibold text-white bg-brand hover:bg-brand-dark rounded-xl transition-all shadow-sm hover:shadow-brand/30 hover:shadow-md"
             >
@@ -98,15 +88,6 @@ export function Navbar() {
               {label}
             </button>
           ))}
-          <a
-            href="https://countmein.markmuya.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={() => setOpen(false)}
-            className="block w-full text-center mt-2 px-4 py-3 text-sm font-semibold text-brand-light border border-brand/30 hover:bg-brand/10 rounded-xl transition-all"
-          >
-            🎟️ CountMeIn
-          </a>
           <a
             href="mailto:markmuya@outlook.com"
             onClick={() => setOpen(false)}
