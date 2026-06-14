@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { ArrowDown, Github, Mail, Linkedin } from 'lucide-react';
+import { ArrowDown, Github, Mail, Linkedin, FileText } from 'lucide-react';
 
 const ROLES = [
   'Full-Stack Developer',
@@ -94,6 +94,15 @@ export function Hero() {
             className="px-7 py-3.5 glass hover:bg-white/10 font-semibold text-white rounded-2xl transition-all border border-white/10 hover:border-white/20"
           >
             Get In Touch
+          </a>
+          <a
+            href="/cv.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-7 py-3.5 glass hover:bg-white/10 font-semibold text-slate-300 hover:text-white rounded-2xl transition-all border border-white/10 hover:border-white/20"
+          >
+            <FileText size={16} />
+            View CV
           </a>
         </div>
 
