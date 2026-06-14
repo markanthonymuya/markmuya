@@ -75,8 +75,8 @@ export function Hero() {
 
         {/* Description */}
         <p className="text-lg text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-up" style={{ animationDelay: '0.2s' }}>
-          I build <span className="text-white font-medium">beautiful, performant apps</span> for web and mobile.
-          From AI-powered health trackers to smart expense tools — I turn complex ideas into
+          I build <span className="text-white font-medium">beautiful, purposeful apps</span> for web and mobile.
+          From mass intention platforms for Catholic parishes to open event registration tools — I turn real needs into
           products people <span className="text-white font-medium">actually love using</span>.
         </p>
 

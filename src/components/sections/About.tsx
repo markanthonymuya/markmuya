@@ -28,8 +28,8 @@ export function About() {
               <p>
                 I'm <span className="text-white font-semibold">Mark Muya</span>, a full-stack and
                 mobile developer passionate about creating software that genuinely helps people.
-                Whether it's a health app that promotes self-awareness or a finance tool that
-                makes budgeting effortless — I build with purpose.
+                Whether it's a mass intentions platform that unites Filipino Catholic parishes in prayer
+                or an open event registration tool that makes gatherings effortless — I build with purpose.
               </p>
               <p>
                 My stack spans <span className="text-white">React Native</span> for cross-platform
@@ -50,10 +50,12 @@ export function About() {
                 Hire Me
               </a>
               <a
-                href="mailto:markmuya@outlook.com?subject=Portfolio inquiry"
+                href="/cv.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-5 py-2.5 glass hover:bg-white/10 text-white font-semibold text-sm rounded-xl transition-all"
               >
-                Download CV
+                View CV
               </a>
             </div>
           </div>
